@@ -14,7 +14,7 @@
 
 - `data/catalog.json` — основной каталог записей с метаданными.
 - `data/excluded.json` — спорные, устаревшие или временно отключённые записи.
-- `dist/amnezia-sites.json` — готовый JSON для AmneziaVPN.
+- `dist/ru-sites.json` — готовый JSON для AmneziaVPN.
 - `docs/criteria.md` — правила включения и исключения доменов.
 - `scripts/build.py` — сборка итогового файла из каталога.
 
@@ -56,7 +56,7 @@
 
 # Как использовать
 
-1. Скачайте файл `dist/amnezia-sites.json`.
+1. Скачайте файл `dist/ru-sites.json`.
 2. Импортируйте его в список исключений или split tunneling в AmneziaVPN.
 3. Проверьте нужные сервисы без VPN-туннеля.
 
@@ -71,7 +71,7 @@
 
 - Автоматическая проверка дублей.
 - Нормализация доменов и подсетей.
-- Автосборка `dist/amnezia-sites.json` через GitHub Actions.
+- Автосборка `dist/ru-sites.json` через GitHub Actions.
 
 ## Отказ от гарантий
 
